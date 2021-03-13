@@ -4,80 +4,33 @@
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content has-text-grey">
-          <h3>who we are</h3>
+          <h3>who are we</h3>
           <p>
-            <strong>
-              We are tech enthusiasts helping businesses work more efficiently
-            </strong>
+            Compumizer Technosols is run by Rajat Jindal. He has over 16 years
+            of software industry experience and has worked on all aspects of
+            software engineering where his major focus has always been to write
+            tools/automation to improver efficiency of users.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Read more about Rajat and his projects here.
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>we want you to succeed</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Compumizer Technosols was build on core principle of improving
+            efficiency for our clients. Today everyone wants to move to cloud
+            computing to improve their infrastructure, time to market but there
+            are legacy systems which cannot be abondoned. Moving legacy systems
+            to latest cloud infrastructure is our speciality.
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
-          </p>
-        </div>
 
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
+          <h3>Nice to meet you</h3>
+          <p>
+            While you are here, you may also want to read more about the
+            projects we have done for our clients, or read some of the
+            testimonials. You can also read our tech blog where we share our
+            learnings with the world.
+          </p>
         </div>
       </template>
 
@@ -91,13 +44,11 @@
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
-  },
-  components: { QuoteCard }
+  }
 }
 </script>
