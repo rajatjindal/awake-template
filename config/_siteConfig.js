@@ -9,9 +9,9 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
+  siteName: 'compumizer technosols',
+  tagline: 'helping improve your efficieny',
+  featureImage: '/uploads/software-hero.webp',
   logo: '', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
