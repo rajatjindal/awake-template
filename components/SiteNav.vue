@@ -7,12 +7,10 @@
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
-        <img
-          v-else
-          :src="$siteConfig.logo"
-          :alt="$siteConfig.siteName"
-          class="logo"
-        />
+        <img v-else src="/blur-2.svg" />
+        <div class="has-text-weight-bold mx-10">
+          compumizer technosols
+        </div>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
