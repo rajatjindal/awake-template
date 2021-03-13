@@ -2,7 +2,7 @@
   <form>
     <!-- Name -->
     <div class="field">
-      <label class="label is-medium">Name</label>
+      <label class="label is-7">Name</label>
       <div class="control has-icons-left">
         <input class="input is-medium" type="text" placeholder="John Smith" />
         <span class="icon is-small is-left">
@@ -12,7 +12,7 @@
     </div>
     <!-- Email -->
     <div class="field">
-      <label class="label is-medium">Email</label>
+      <label class="label is-7">Email</label>
       <div class="control has-icons-left">
         <input
           class="input is-medium"
@@ -26,7 +26,7 @@
     </div>
     <!-- Subject -->
     <div class="field">
-      <label class="label is-medium">Subject</label>
+      <label class="label is-7">Subject</label>
       <div class="control has-icons-left">
         <input
           class="input is-medium"
@@ -40,7 +40,7 @@
     </div>
     <!-- Message -->
     <div class="field">
-      <label class="label is-medium">Message</label>
+      <label class="label is-7">Message</label>
       <div class="control">
         <textarea
           class="textarea"
