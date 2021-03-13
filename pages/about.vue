@@ -1,17 +1,13 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
-    <site-hero
-      title="About Us"
-      subtitle="Example About Page"
-      image="/uploads/about-hero.jpg"
-    ></site-hero>
+    <site-hero title="About Us" image="/uploads/about-hero.jpg"></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
-        <div class="content">
-          <h3>Fake Heading</h3>
+        <div class="content has-text-grey">
+          <h3>who we are</h3>
           <p>
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              We are tech enthusiasts helping businesses work more efficiently
             </strong>
           </p>
           <p>
